@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" type="text/css" href="loader.css">
+
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <!-- Add other loader-line-wrap divs as per your design -->
+        </div>
+    </div>
+
+    <script>
+        // Function to redirect after a delay
+        function redirectAfterDelay() {
+            setTimeout(function() {
+                window.location.href = "deerunz.html"; // Redirect to deerunz.html after 4 seconds
+            }, 4000); // 4 seconds delay
+        }
+
+        // Call the redirect function when the page is fully loaded
+        window.onload = redirectAfterDelay;
+    </script>
+</body>
+
+</html>
 
